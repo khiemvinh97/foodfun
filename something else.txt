@@ -1,0 +1,54 @@
+
+button gì gì đấy
+
+          <div class="button-slide">
+            <button role="button" class="button-item"></button>
+            <button role="button" class="button-item" style="background: #ffb606;"></button>
+            <button role="button" class="button-item-hide"></button>
+
+
+
+          </div>
+
+ .button-item{
+                    width: 20px;
+                    height: 5px;
+                    background: #fff;
+                    margin: 0 7px;
+                    border-radius: 5px;
+                    font: inherit;
+                    border: none;
+                }
+                .button-item:hover{
+                  
+                    background: #ffb606;
+               
+                }
+                .button-item-hide{
+                    width: 20px;
+                    height: 5px;
+                    background: #fff;
+                    margin: 0 7px;
+                    border-radius: 5px;
+                    font: inherit;
+                    border: none;
+                    display: none;
+                }
+                .button-item-hide:hover{
+                  
+                    background: #ffb606;
+               
+                }
+                @media (max-width:768px) {
+                    .customer-feedback{
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                    }
+                    .customer-feedback-hide{
+                    display: none;
+                    }
+                    .button-item-hide{
+                        display: inline-block;
+                    }
+
+                }
